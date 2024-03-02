@@ -10,8 +10,8 @@ body {
 }
 
 header {
+    /* bakcground image diambil dari detik detik pertama video A Sky Full of Stars Live 2014 */
     background-image: url(../img/header-cover.jpg);
-    /* height: 200px; */
     color: #D6F4FF;
     text-align: center;
     background-repeat: none;
