@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Aulia Pradina | Project Akhir Belajar Dasar Pemrograman Web by Dicoding -->
+        <!-- Ghost Stories Infographic Website | yes i love coldplay and ghost stories is my fav album! -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ghost Stories Infographic</title>
+        <!-- Magic Bird Favicon-->
+        <link
+            rel="shortcut icon"
+            href="assets/img/magic-bird.ico"
+            type="image/x-icon"
+        />
+        <!-- My CSS -->
+        <link rel="stylesheet" href="assets/styles/style.css" />
+        <!-- My JS -->
+        <script src="assets/js/script.js"></script>
+        <!-- Font used : Lexend Deca (Google Fonts)-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <header>
+            <div class="jumbotron">
+                <h1>COLDPLAY</h1>
+                <h2>GHOST STORIES</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#single">Single</a></li>
+                    <li><a href="#other">Other Releases</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="content">
+                <article class="card" id="about">
+                    <h2>ABOUT</h2>
+                    <p>
+                        Ghost Stories, Coldplay 6th album will take you into a
+                        hauntingly introspective journey through themes of love,
+                        loss, and emotional resilience. Released in 2014, this
+                        album marks a departure from the band's signature
+                        anthemic sound, embracing a more subdued and atmospheric
+                        approach. A profound and immersive musical experience,
+                        leaving an indelible mark long after the final note
+                        fades away.
+                    </p>
+                    <h4>
+                        Release Date:
+                        <span class="release-date"> May 16th, 2014</span>
+                        <br />
+                        Length: <span class="release-date"> 40.18</span>
+                    </h4>
+                </article>
+                <article class="card" id="single">
+                    <h2>SINGLE</h2>
+                    <div class="card-row">
+                        <section class="card-img">
+                            <img
+                                src="assets/img/magic.jpeg"
+                                alt="Chris Martin in Magic Music Video"
+                                class="img"
+                                onclick="ytDirect('https://www.youtube.com/watch?v=Qtb11P1FWnc&pp=ygUObWFnaWMgY29sZHBsYXk%3D')"
+                                title="https://www.youtube.com/watch?v=Qtb11P1FWnc&pp=ygUObWFnaWMgY29sZHBsYXk%3D"
+                            />
+                            <h4>
+                                <u>Magic</u> <br />
+                                <span class="release-date">
+                                    March 3rd, 2014
+                                </span>
+                            </h4>
+                        </section>
+                        <section class="card-img">
+                            <img
+                                src="assets/img/midnight.png"
+                                alt="Midnight Music Video"
+                                class="img"
+                                onclick="ytDirect('https://www.youtube.com/watch?v=BQeMxWjpr-Y&pp=ygURbWlkbmlnaHQgY29sZHBsYXk%3D')"
+                                title="https://www.youtube.com/watch?v=BQeMxWjpr-Y&pp=ygURbWlkbmlnaHQgY29sZHBsYXk%3D"
+                            />
+                            <h4>
+                                <u>Midnight</u> <br />
+                                <span class="release-date">
+                                    April 17th, 2014
+                                </span>
+                            </h4>
+                        </section>
+                        <section class="card-img">
+                            <img
+                                src="assets/img/asfos.jpeg"
+                                alt="Coldplay performing A Sky Full of Stars for target commercial"
+                                class="img"
+                                onclick="ytDirect('https://www.youtube.com/watch?v=ljuyyXMYT-M&pp=ygUhYSBza3kgZnVsbCBvZiBzdGFycyBjb2xkcGxheSBsaXZl')"
+                                title="https://www.youtube.com/watch?v=ljuyyXMYT-M&pp=ygUhYSBza3kgZnVsbCBvZiBzdGFycyBjb2xkcGxheSBsaXZl"
+                            />
+
+                            <h4>
+                                <u>A Sky Full of Stars</u> <br />
+                                <span class="release-date">
+                                    May 2nd, 2014
+                                </span>
+                            </h4>
+                        </section>
+                        <section class="card-img">
+                            <img
+                                src="assets/img/true-love.png"
+                                alt="Chris Martin in True Love Music Video"
+                                class="img"
+                                onclick="ytDirect('https://www.youtube.com/watch?v=Wpl_6jotaHA&pp=ygUSdHJ1ZSBsb3ZlIGNvbGRwbGF5')"
+                                title="https://www.youtube.com/watch?v=Wpl_6jotaHA&pp=ygUSdHJ1ZSBsb3ZlIGNvbGRwbGF5"
+                            />
+                            <h4>
+                                <u>True Love</u> <br />
+                                <span class="release-date">
+                                    August 14th, 2014</span
+                                >
+                            </h4>
+                        </section>
+                    </div>
+                </article>
+                <article class="card">
+                    <h2 id="other">OTHER RELEASES</h2>
+                    <div class="card-row">
+                        <section class="card-img">
+                            <img
+                                src="assets/img/gs-live-artwork.jpg"
+                                alt="Ghost Stories Live 2014 Album Artwork"
+                                class="img"
+                                onclick="openSpotify('https://open.spotify.com/album/1hNS0RsxPTFjmKXCgmjSLS?si=zsyGuviJSaKJWSzugF6sVw')"
+                                title="https://open.spotify.com/album/1hNS0RsxPTFjmKXCgmjSLS?si=zsyGuviJSaKJWSzugF6sVw"
+                            />
+                            <h4>
+                                Ghost Stories Live 2014 <br />
+                                <span class="release-date">
+                                    November 21st, 2014
+                                </span>
+                            </h4>
+                        </section>
+                        <section class="card-img">
+                            <img
+                                src="assets/img/asfos-ep.jpg"
+                                alt="A Sky Full of Stars EP Album Artwork"
+                                class="img"
+                                onclick="openSpotify('https://open.spotify.com/album/2jQB4YEh4xWhloG21IueUf?si=rWG57iZtT9qq75p6OqhWpg')"
+                                title="https://open.spotify.com/album/2jQB4YEh4xWhloG21IueUf?si=rWG57iZtT9qq75p6OqhWpg"
+                            />
+                            <h4>
+                                A Sky Full of Stars EP <br />
+                                <span class="release-date">
+                                    June 29th, 2014</span
+                                >
+                            </h4>
+                        </section>
+                    </div>
+                </article>
+            </div>
+            <!-- Konten Samping (aside) -->
+            <aside>
+                <article class="card">
+                    <img
+                        src="assets/img/gs-artwork.jpg"
+                        alt="Ghost Stories Album Artwork"
+                        class="img"
+                        onclick="openSpotify('https://open.spotify.com/album/2G4AUqfwxcV1UdQjm2ouYr?si=sKV4ZvGITNC7PaxrEgs2Wg')"
+                        title="https://open.spotify.com/album/2G4AUqfwxcV1UdQjm2ouYr?si=sKV4ZvGITNC7PaxrEgs2Wg"
+                    />
+                    <h2>TRACKLIST</h2>
+                    <table>
+                        <tr>
+                            <th>1. Always In My Head</th>
+                            <td>3:36</td>
+                        </tr>
+                        <tr>
+                            <th>2. Magic</th>
+                            <td>4:45</td>
+                        </tr>
+                        <tr>
+                            <th>3. Ink</th>
+                            <td>3:48</td>
+                        </tr>
+                        <tr>
+                            <th>4. True Love</th>
+                            <td>4:06</td>
+                        </tr>
+                        <tr>
+                            <th>5. Midnight</th>
+                            <td>4:54</td>
+                        </tr>
+                        <tr>
+                            <th>6. Another's Arms</th>
+                            <td>3:45</td>
+                        </tr>
+                        <tr>
+                            <th>7. Oceans</th>
+                            <td>5:21</td>
+                        </tr>
+                        <tr>
+                            <th>8. A Sky Full of Stars</th>
+                            <td>4:27</td>
+                        </tr>
+                        <tr>
+                            <th>9. O (Fly On)</th>
+                            <td>5:23</td>
+                        </tr>
+                    </table>
+                </article>
+            </aside>
+        </main>
+        <footer>
+            <!-- Footer icon -->
+            <img src="assets/img/magic-bird.png" />
+            <h3>
+                COLDPLAY <br />
+                GHOST STORIES INFOGRAPHIC
+            </h3>
+            <br />
+            <p>
+                Made with love by Aulia Pradina for Dicoding Course &#169; 2024
+            </p>
+        </footer>
+    </body>
+</html>
